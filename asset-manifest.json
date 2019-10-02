@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dictionary-manager/static/css/main.34de6062.chunk.css",
+    "main.js": "/dictionary-manager/static/js/main.b9cbf84f.chunk.js",
+    "main.js.map": "/dictionary-manager/static/js/main.b9cbf84f.chunk.js.map",
+    "runtime-main.js": "/dictionary-manager/static/js/runtime-main.15881f81.js",
+    "runtime-main.js.map": "/dictionary-manager/static/js/runtime-main.15881f81.js.map",
+    "static/js/2.e1c9e762.chunk.js": "/dictionary-manager/static/js/2.e1c9e762.chunk.js",
+    "static/js/2.e1c9e762.chunk.js.map": "/dictionary-manager/static/js/2.e1c9e762.chunk.js.map",
+    "index.html": "/dictionary-manager/index.html",
+    "precache-manifest.0e469feeb229ab4a8d8d210b88a9a4ea.js": "/dictionary-manager/precache-manifest.0e469feeb229ab4a8d8d210b88a9a4ea.js",
+    "service-worker.js": "/dictionary-manager/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/dictionary-manager/static/css/main.34de6062.chunk.css.map"
+  }
+}
