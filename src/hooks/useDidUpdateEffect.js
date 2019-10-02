@@ -8,6 +8,7 @@ function useDidUpdateEffect(fn, inputs) {
             fn();
         else
             didMountRef.current = true;
+        // eslint-disable-next-line
     }, inputs);
 }
 

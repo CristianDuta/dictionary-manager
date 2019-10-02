@@ -3,7 +3,7 @@ import {AppBar, Grid, Paper, Toolbar, Typography, Container} from "@material-ui/
 import {DictionaryProvider} from "./context/dictionary.context";
 import Dictionary from "./components/Dictionary";
 import DictionaryList from "./components/DictionaryList";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {HashRouter as Router, Switch, Route} from "react-router-dom";
 import AddDictionaryButton from "./components/AddDictionaryButton";
 import NavigationBreadcrumbs from "./components/NavigationBreadcrumbs";
 import HelpSnackBarAndButton from "./components/HelpSnackBarAndButton";
@@ -28,7 +28,7 @@ function App() {
                 <Grid container justify='center' style={{marginTop: "1rem"}}>
                     <Grid item xs={11}>
                         <DictionaryProvider>
-                            <Router>
+                            <Router basename="/dictionary-manager">
                                 <NavigationBreadcrumbs/>
                                 <Switch>
                                     <Route exact path="/">
@@ -40,7 +40,6 @@ function App() {
                                         <HelpSnackBarAndButton/>
                                     </Route>
                                 </Switch>
-
                             </Router>
                         </DictionaryProvider>
                     </Grid>
