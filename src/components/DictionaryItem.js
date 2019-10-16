@@ -31,20 +31,20 @@ function DictionaryItem({dictionary}) {
     const dispatch = useContext(DispatchContext);
 
     let avatar = (
-        <Avatar aria-label="recipe" className={classes.green}>
+        <Avatar className={classes.green} data-test-id="dictionary-success-icon">
             <CheckIcon/>
         </Avatar>
     );
 
     if (dictionary.errors.length > 0) {
         avatar = (
-            <Avatar aria-label="recipe" className={classes.red}>
+            <Avatar className={classes.red} data-test-id="dictionary-error-icon">
                 <CloseIcon/>
             </Avatar>
         );
     } else if (dictionary.warnings.length > 0) {
         avatar = (
-            <Avatar aria-label="recipe" className={classes.orange}>
+            <Avatar className={classes.orange} data-test-id="dictionary-warning-icon">
                 <WarningIcon/>
             </Avatar>
         );
